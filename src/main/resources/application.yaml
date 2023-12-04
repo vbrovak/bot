@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: bot
+  datasource:
+    url: jdbc:postgresql://localhost:5432/DemoDB
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    default-schema: public
+server:
+  port: 8080
+bot:
+  username: DontSmokeTestBot
+  token: 6461285862:AAHVmgyZvuisq4PW7Pgx2Csqiayphzi3rAM
